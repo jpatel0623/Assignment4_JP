@@ -96,7 +96,7 @@ public class Assignment4Test
         driver.FindElement(By.Id("age")).Click();
         driver.FindElement(By.Id("age")).SendKeys("25");
         driver.FindElement(By.Id("experience")).Click();
-        driver.FindElement(By.Id("experience")).SendKeys("3");
+        driver.FindElement(By.Id("experience")).SendKeys("3"); 
         driver.FindElement(By.Id("accidents")).Click();
         driver.FindElement(By.Id("accidents")).SendKeys("2");
         driver.FindElement(By.Id("btnSubmit")).Click();
