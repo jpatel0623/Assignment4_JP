@@ -359,7 +359,7 @@ public class Assignment4Test
         driver.FindElement(By.Id("email")).SendKeys(Keys.Down);
         driver.FindElement(By.Id("email")).SendKeys("juhi@gmail.com");
         driver.FindElement(By.Id("age")).Click();
-        driver.FindElement(By.Id("age")).SendKeys("10");
+        driver.FindElement(By.Id("age")).SendKeys("10"); 
         driver.FindElement(By.Id("experience")).Click();
         driver.FindElement(By.Id("experience")).SendKeys("2");
         driver.FindElement(By.Id("accidents")).Click();
