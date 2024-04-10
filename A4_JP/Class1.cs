@@ -393,7 +393,7 @@ public class Assignment4Test
         driver.FindElement(By.Id("city")).SendKeys("kitchner");
         driver.FindElement(By.Id("postalCode")).Click();
         driver.FindElement(By.Id("postalCode")).SendKeys("N2M 4T4");
-        driver.FindElement(By.Id("email")).Click();
+        driver.FindElement(By.Id("email")).Click(); 
         driver.FindElement(By.Id("postalCode")).Click();
         driver.FindElement(By.Id("postalCode")).SendKeys("N2M 4T5");
         driver.FindElement(By.Id("email")).Click();
